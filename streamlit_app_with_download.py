@@ -24,4 +24,5 @@ def calculate_annuity(P, annual_rate, years):
 
 monthly_payment = calculate_annuity(principal, interest_rate, years)
 if st.button("Generate Secure Mortgage Ledger"):
-    monthly_payment = calculate_annuity(principal, interest_rate, years)
+    500
+
