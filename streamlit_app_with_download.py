@@ -24,6 +24,7 @@ def calculate_annuity(P, annual_rate, years):
 
 monthly_payment = calculate_annuity(principal, interest_rate, years)
 if st.button("Generate Secure Mortgage Ledger"):
-    st.success(f"Your calculated monthly payment is ${monthly_payment:,.2f}")
-    st.subheader("Results")
+    #st.success(f"Your calculated monthly payment is ${monthly_payment:,.2f}")
+    #st.subheader("Results")
     st.metric(label="Monthly Payment", value=f"${monthly_payment:,.2f}")
+
