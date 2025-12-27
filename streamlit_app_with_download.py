@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 import json
-from blockchain_logic import MortgageChain
+#from blockchain_logic import MortgageChain
 
 st.set_page_config(page_title="Blockchain Mortgage Ledger", layout="wide")
 
@@ -23,4 +23,5 @@ def calculate_annuity(P, annual_rate, years):
     return P * (r * (1 + r)**n) / ((1 + r)**n - 1)
 
 monthly_payment = calculate_annuity(principal, interest_rate, years)
+
 
